@@ -1,0 +1,31 @@
+.global-company-stuff {
+  padding: 0 12.5%;
+
+  display: flex;
+
+  justify-content: space-around;
+}
+.brand-logos {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.local-logos-icons {
+  width: 150px;
+
+  fill: #747474;
+  margin: 10px;
+}
+
+.local-logos-icons:hover {
+  fill: #00bfa5;
+}
+.global-company-stuff h2 {
+  color: #00b39b;
+  font-size: 150%;
+  font-weight: normal;
+
+  padding: 0 0 0 2.5%;
+}

@@ -1,0 +1,23 @@
+.title-and-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10% 12.5% 0;
+}
+.title-part {
+  color: #00b39b;
+  font-weight: normal;
+  font-size: 200%;
+}
+.intro-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-part p {
+  padding: 1%;
+
+  color: #747474;
+  line-height: 1.75;
+}

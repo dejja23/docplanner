@@ -1,0 +1,10 @@
+.App {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.for-patient-for-doctor {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 0 12.5%;
+}

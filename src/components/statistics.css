@@ -1,0 +1,58 @@
+.statistics {
+    background-image: url("https://www.docplanner.com/img/logo.png");
+    background-repeat: no-repeat;
+    background-position: 10% 175%;
+  
+    display: flex;
+    justify-content: space-between;
+    background-color: #dcf7f7;
+  
+    padding: 5%;
+  }
+  .statistics h2 {
+    font-size: 200%;
+    color: #00b39b;
+    font-weight: normal;
+  }
+  .statistics p {
+    font-size: 100%;
+    color: #747474;
+    line-height: 1.3;
+  }
+  .statistics-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+  }
+  .boxes {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .the-white-box-stuff {
+    background-color: white;
+  
+    width: 35%;
+    height: 45%;
+  
+    text-align: center;
+    padding: 2%;
+    margin: 0 5% 0 0;
+    border-radius: 8px;
+  }
+  .the-white-box-stuff p {
+    font-size: 80%;
+    color: #747474;
+  }
+  .the-white-box-stuff h3 {
+    font-size: 150%;
+    color: #00b39b;
+    margin: 5% 0;
+    font-weight: normal;
+  }
+  .the-white-box-stuff:nth-child(1) ,.the-white-box-stuff:nth-child(3){
+    margin-top:5%;
+  }
+  
+  

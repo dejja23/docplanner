@@ -1,0 +1,40 @@
+.for-patient-for-doctor {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 0 12.5%;
+}
+.for-patient-doctor h2 {
+  font-size: 100%;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-weight: normal;
+}
+.for-patient-doctor p {
+  font-size: 175%;
+  color: #fff;
+}
+.for-patient-doctor {
+  border-radius: 10px;
+  padding: 0 5%;
+  overflow: hidden;
+  width: 50%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.comp-img {
+  width: 400px;
+  position: relative;
+  left: 50%;
+}
+.select-country {
+  border: none;
+  border-radius: 4px;
+  width: 50%;
+  padding: 2%;
+
+  text-transform: uppercase;
+
+  font-size: 100%;
+}
